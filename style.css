@@ -17,8 +17,8 @@
 
 /* 1. VARIABLES -------------------------------------------- */
 :root {
-  --bg: #0f172a;          /* page background */
-  --bg-card: #1e293b;     /* cards / panels */
+  --bg: #f195bc;          /* page background */
+  --bg-card: #f2b0cd;     /* cards / panels */
   --text: #e2e8f0;        /* main text */
   --text-muted: #94a3b8;  /* softer text */
   --accent: #2dd4bf;      /* highlight color (teal) */
