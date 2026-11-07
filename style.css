@@ -424,7 +424,19 @@ a {
   display: inline-block;
   min-width: 120px;
 }
+.timeline-item {
+  margin-bottom: 26px;
+  padding: 18px 22px;
+  background: var(--bg-card);
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  border-radius: var(--radius);
+  box-shadow: 0 8px 20px rgba(59, 13, 28, 0.08);
+}
 
+.timeline-item span {
+  color: var(--accent-dark);
+  font-size: 0.85rem;
+}
 .timeline {
   border-left: 3px solid var(--accent);
   padding-left: 24px;
