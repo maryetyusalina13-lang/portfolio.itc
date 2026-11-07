@@ -75,6 +75,10 @@ a {
   transition: color 0.3s ease;
 }
 .navbar {
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+
   background: rgba(255, 255, 255, 0.3);
   backdrop-filter: blur(12px);
   -webkit-backdrop-filter: blur(12px);
