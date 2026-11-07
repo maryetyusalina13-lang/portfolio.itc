@@ -20,6 +20,7 @@
   --bg: linear-gradient(135deg, #da8393, #d26777, #fee1e3, #dc7c88, #f2b9c0);
   --bg-fallback: #f2b9c0;
   --bg-card: rgba(255, 245, 246, 0.78); /* cards / panels */
+   background: var(--bg-nav);
   --text: #3b0d1c;        /* main text */
   --text-muted: #703247;  /* softer text */
   --accent: #feeff3 ;     /* highlight color*/
