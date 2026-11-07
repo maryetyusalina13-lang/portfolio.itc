@@ -17,14 +17,14 @@
 
 /* 1. VARIABLES -------------------------------------------- */
 :root {
-  --:bg: linear-gradient(135deg, #da8393, #d26777, #fee1e3, #dc7c88, #f2b9c0);
+  --bg: linear-gradient(135deg, #da8393, #d26777, #fee1e3, #dc7c88, #f2b9c0);
   --bg-fallback: #f2b9c0;
   --bg-card: #f2b0cd;     /* cards / panels */
-  --text: #fde3eb;        /* main text */
-  --text-muted: #94a3b8;  /* softer text */
-  --accent: #feeff3 ;      /* highlight color (teal) */
+  --text: #3b0d1c;        /* main text */
+  --text-muted: #703247;  /* softer text */
+  --accent: #feeff3 ;     /* highlight color*/
   --accent-dark: #fb6f92; /* hover color */
-  --border: #334155;
+  --border: #c97b8d;
   --radius: 14px;
   --max-width: 1100px;
 }
@@ -45,7 +45,8 @@ body {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   background-color: var(--bg-fallback);
   background-image: var(--bg);
-  color: var(--text);
+  min-height: 100vh;
+  color: var(--text);              
   line-height: 1.7;
 }
 
