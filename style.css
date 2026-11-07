@@ -17,8 +17,8 @@
 
 /* 1. VARIABLES -------------------------------------------- */
 :root {
-  --:bg: linear-gradient(135deg, #e83d5d, #59171b);
-  --bg-fallback: #e83d5d;
+  --:bg: linear-gradient(135deg, #da8393, #d26777, #fee1e3, #dc7c88, #f2b9c0);
+  --bg-fallback: #f2b9c0;
   --bg-card: #f2b0cd;     /* cards / panels */
   --text: #fde3eb;        /* main text */
   --text-muted: #94a3b8;  /* softer text */
