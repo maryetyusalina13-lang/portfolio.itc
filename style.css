@@ -68,15 +68,16 @@ a {
 
 
 /* 3. NAVIGATION ------------------------------------------- */
-.navbar {
-  position: sticky;
-  top: 0;
-  z-index: 100;
-  background: rgba(15, 23, 42, 0.92);
-  backdrop-filter: blur(8px);
-  border-bottom: 1px solid var(--border);
+.navbar a {
+  color: var(--text);
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.3s ease;
 }
 
+.navbar a:hover {
+  color: var(--accent-dark);
+}
 .nav-inner {
   display: flex;
   align-items: center;
