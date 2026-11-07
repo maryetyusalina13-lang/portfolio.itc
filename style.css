@@ -276,16 +276,21 @@ a {
 /* 7. CARDS ------------------------------------------------ */
 .card {
   background: var(--bg-card);
-  border: 1px solid var(--border);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px); /* Safari support */
+  border: 1px solid rgba(255, 255, 255, 0.5); /* Soft glass edge highlight */
   border-radius: var(--radius);
   padding: 26px;
-  transition: 0.3s;
+  box-shadow: 0 8px 20px rgba(59, 13, 28, 0.08);
+  transition: transform 0.3s ease, box-shadow 0.3s ease, border-color 0.3s ease;
 }
 
 .card:hover {
-  transform: translateY(-6px);
-  border-color: var(--accent);
+  transform: translateY(-4px);
+  border-color: var(--accent-dark);
+  box-shadow: 0 12px 24px rgba(210, 103, 119, 0.18);
 }
+
 
 .card h3 {
   margin-bottom: 8px;
