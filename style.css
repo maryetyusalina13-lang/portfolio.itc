@@ -317,9 +317,20 @@ a {
   margin-bottom: 10px;
 }
 
-/* Skill bars */
+/* Skill cards */
 .skill {
-  margin-bottom: 22px;
+  margin-bottom: 0;
+  padding: 20px;
+  background: var(--bg-card);
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  border-radius: var(--radius);
+  box-shadow: 0 8px 20px rgba(59, 13, 28, 0.08);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.skill:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 12px 24px rgba(210, 103, 119, 0.18);
 }
 
 .skill-top {
