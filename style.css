@@ -319,7 +319,7 @@ a {
 
 /* Skill cards */
 .skill {
-  margin-bottom: 0;
+  margin-bottom: 16px;
   padding: 20px;
   background: var(--bg-card);
   border: 1px solid rgba(255, 255, 255, 0.5);
