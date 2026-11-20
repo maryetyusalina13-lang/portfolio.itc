@@ -1,0 +1,56 @@
+/* Project gallery glass-card styling */
+.projects-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 280px), 1fr));
+  gap: 24px;
+  align-items: stretch;
+}
+
+.projects-grid .project-card {
+  min-width: 0;
+  background: rgba(255, 245, 246, 0.58);
+  -webkit-backdrop-filter: blur(12px);
+  backdrop-filter: blur(12px);
+  border: 1px solid rgba(255, 255, 255, 0.58);
+  border-radius: 20px;
+  overflow: hidden;
+  box-shadow: 0 8px 24px rgba(59, 13, 28, 0.1);
+}
+
+.projects-grid .project-img {
+  min-height: 220px;
+  height: 220px;
+  padding: 18px;
+  background: rgba(112, 50, 71, 0.22);
+  -webkit-backdrop-filter: blur(10px);
+  backdrop-filter: blur(10px);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+}
+
+.projects-grid .project-img img {
+  border-radius: 12px;
+}
+
+.projects-grid .project-body {
+  height: 100%;
+  padding: 24px;
+  background: rgba(255, 245, 246, 0.38);
+}
+
+.projects-grid .project-card:hover {
+  transform: translateY(-4px);
+  border-color: rgba(255, 255, 255, 0.85);
+  box-shadow: 0 14px 30px rgba(59, 13, 28, 0.16);
+}
+
+@media (max-width: 480px) {
+  .projects-grid {
+    grid-template-columns: minmax(0, 1fr);
+    gap: 20px;
+  }
+
+  .projects-grid .project-img {
+    height: 200px;
+    min-height: 200px;
+  }
+}
