@@ -73,9 +73,9 @@ a { color: var(--accent); text-decoration: none; }
   margin: 48px auto 10px;
   padding: 38px 28px;
   text-align: center;
-  background: var(--bg-card);
-  backdrop-filter: blur(10px);
-  -webkit-backdrop-filter: blur(10px);
+  background: linear-gradient(135deg, rgba(254, 111, 146, 0.3), rgba(254, 239, 243, 0.24));
+  backdrop-filter: blur(14px);
+  -webkit-backdrop-filter: blur(14px);
   border: 1px solid rgba(255, 255, 255, 0.5);
   border-radius: 20px;
   box-shadow: 0 8px 20px rgba(59, 13, 28, 0.08);
