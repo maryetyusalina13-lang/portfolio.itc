@@ -1,0 +1,34 @@
+/* Accessible, consistent text and controls for project cards and contact links. */
+.project-card h3,
+.project-card p,
+.project-card .tag,
+.project-card .btn-outline {
+  color: #3b0d1c;
+}
+
+.project-card .tag {
+  background: rgba(59, 13, 28, 0.1);
+}
+
+.project-card .btn-outline {
+  border-color: #3b0d1c;
+}
+
+.project-card .btn-outline:hover {
+  color: #fff5f6;
+  background: #3b0d1c;
+}
+
+.contact-info .card a {
+  color: #3b0d1c;
+  font-weight: 600;
+  text-decoration: underline;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 3px;
+}
+
+.contact-info .card a:hover,
+.contact-info .card a:focus-visible {
+  color: #703247;
+  text-decoration-thickness: 2px;
+}
